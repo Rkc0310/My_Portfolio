@@ -56,12 +56,24 @@ export const projects = [
     description:
       "Understanding customer shopping behavior is essential for improving customer experience, increasing revenue, and building effective marketing strategies. In this project, I analyzed a transactional dataset containing 3,900 customer purchases across multiple product categories. The analysis focuses on customer demographics, purchasing patterns, subscription behavior, discounts, product preferences, and revenue generation.",
     image: "/images/power_bi_ss.png",
-    tags: ["Python","SQL","power-bi"],
+    tags: ["Excel","Python","SQL","Power-bi"],
     githubUrl: "https://github.com/Rkc0310/Customer-Behavior-Dashboard",
     liveUrl: "https://www.kaggle.com/code/roshanchandravanshi/customer-behavior",
   },
+
   {
     id: "p2",
+    title: "E-Commerce Sales Analytics",
+    description:
+      "The primary objective of this project is to convert raw transactional, customer, seller, product, and review data into strategic operational intelligence. The technical pipeline encompasses data cleaning and exploratory data analysis (EDA) in Python, complex analytical transactional querying using SQL, dimensional star-schema modeling and visualization in Power BI, and executive-level recommendations.",
+     image: "/images/Dashboard Pages & Design Layout.png",
+    tags: ["Excel","Python","SQL","Power-bi"],
+    githubUrl: "https://github.com/Rkc0310/ecommerce-sales-powerbi-dashboard",
+    liveUrl: "https://www.kaggle.com/code/roshanchandravanshi/e-commerce-sales-analytics",
+  },
+
+  {
+    id: "p3",
     title: "Global Supply Chain Dashboard",
     description:
       "Built an interactive real-time dashboard tracking global shipments, identifying bottlenecks, and optimizing logistics routes. Handled over 10M+ rows of data.",
@@ -70,16 +82,7 @@ export const projects = [
     githubUrl: "#",
     liveUrl: "#",
   },
-  {
-    id: "p3",
-    title: "E-commerce Sales Forecasting",
-    description:
-      "Implemented a time-series forecasting model using ARIMA and Prophet to predict inventory needs for the upcoming holiday season, minimizing stockouts.",
-    image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?q=80&w=2070&auto=format&fit=crop",
-    tags: ["R", "Prophet", "Time Series", "D3.js"],
-    githubUrl: "#",
-    liveUrl: "#",
-  },
+  
 ];
 
 export const certificates = [
